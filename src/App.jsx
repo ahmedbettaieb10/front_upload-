@@ -154,10 +154,10 @@ Swal.fire({
           
 
         </div>
-        <div className='input1'><label htmlFor="images" className="drop-container">
+        <div className='input1'><label htmlFor="images1" className="drop-container">
             <span className="drop-title">Upload PDF</span>
            
-            <input type="file" id="images" onChange={ handleFileChange} accept="image/*" required />
+            <input type="file" id="images1" onChange={ handleFileChange} accept="image/*" required />
           </label></div>
         
         <div className='output'>

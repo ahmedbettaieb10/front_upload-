@@ -1,0 +1,166 @@
+.input{
+    margin-left: 180%;
+    margin-top: 2%;
+    width:300px;}
+  .input1{
+    margin-left: 180%;
+    margin-top: 8%;
+    width:300px;
+  
+  }
+  
+  .output{
+    min-height: 500px;
+    min-width: 400px;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    font-display: center;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    margin-left: 20%;
+    margin-top: -100%;
+    font-family: cursive, sans-serif;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+   
+    border:  7px solid rgb(179, 179, 179);
+    border-block-color: rgb(233, 231, 231);
+  } 
+  .scrollable-div {
+    max-height: 500px; /* set the maximum height of the container */
+    overflow-y: auto; /* add vertical scroll bar when content exceeds container height */
+  }
+  
+  .file-input{
+    width: 50px;
+  
+  }
+  body {
+    margin: 20px 60px;
+  }
+  
+  .drop-container {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed #73df85;
+    color: #353535;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    border:  3px solid rgb(165, 163, 163);
+    border-block-color: rgb(233, 231, 231);
+  }
+  
+  .drop-container:hover {
+    background: #eee;
+    border-color: #111;
+  }
+  
+  .drop-container:hover .drop-title {
+    color: #222;
+  }
+  
+  .drop-title {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+  }
+  
+  input[type=file] {
+    width: 350px;
+    max-width: 100%;
+    color: #000000;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+  }
+  
+  input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #52da7b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fffbfb;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #707070;
+  }
+  .button {
+    
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button span {
+    
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .button1 {
+    display: flex; /* use flexbox to align items horizontally */
+    justify-content: space-between; /* space out the items evenly */
+    align-items: center; /* vertically center the items */
+    margin-left: 190%;
+    margin-top: -1%;
+  }
+  
+  .button {
+    padding: 10px 20px; /* add some padding to the buttons */
+    background-color: #2c3f31; /* add a background color */
+    border: none; /* remove the button border */
+    border-radius: 5px; /* add some border radius */
+    cursor: pointer; /* add a pointer cursor */
+    font-size: 16px; /* set the font size */
+    
+  }
+  
+  .button:hover {
+    background-color: #ccc; /* change the background color on hover */
+  }
+  h2{margin-left: 35%;}
+  
+   
